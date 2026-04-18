@@ -1,0 +1,15 @@
+# VirtualBox large files
+*.vdi
+*.vbox
+*.vbox-prev
+Logs/
+Snapshots/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Documentation source (optional if you only want the PDF)
+*.docx
+*.pptx
+!GitHub/docs/*.pdf

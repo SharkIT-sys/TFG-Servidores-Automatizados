@@ -1,0 +1,5 @@
+# Reglas de vigilancia en los archivos, monitorizar la escritura y atributos con Auditd
+
+-w /etc/dhcp/dhcpd.conf -p wa -k dhcp_changes
+-w /etc/samba/smb.conf -p wa -k samba_changes
+-w /etc/ssh/sshd_config -p wa -k ssh_changes
